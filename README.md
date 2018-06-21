@@ -1,2 +1,0 @@
-# SWE
-Software Engeneering

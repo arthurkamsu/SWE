@@ -15,10 +15,6 @@
 	height: 100%;
 }
 
-body{
-	background-image:url('');
-}
-
 .inner-wrapper {
 	display: table-cell;
 	vertical-align: middle;

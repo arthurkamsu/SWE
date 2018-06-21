@@ -37,15 +37,14 @@
 			</form:select>
 			<form:errors path="blocks" cssClass="error" />
 		</div> --%>
-		<spring:message code="date.placeholder" var="dateFormat"/>
 		<div class="form-group">
 			<label for="startDate">Start Date: </label>
-			<form:input type="date" path="startDate" id="startDate" class="form-control" placeholder="${dateFormat}"/>
+			<form:input type="date" path="startDate" id="startDate" class="form-control" />
 			<form:errors path="startDate" cssClass="error" />
 		</div>
 		<div class="form-group">
 			<label for="endDate">End Date: </label>
-			<form:input type="date" path="endDate" id="endDate" class="form-control" placeholder="${dateFormat}"/>
+			<form:input type="date" path="endDate" id="endDate" class="form-control" />
 			<form:errors path="endDate" cssClass="error" />
 		</div>
 		<div class="form-group">
